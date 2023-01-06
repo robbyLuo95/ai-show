@@ -116,7 +116,6 @@ def show_photo(file):
             response.headers['Content-Type'] = 'image/png'
             return response
 
-
 # show photo
 @app.route('/uploads/<path:file>', methods=['GET'])
 def u_show_photo(file):
